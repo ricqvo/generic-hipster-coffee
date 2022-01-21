@@ -1,0 +1,26 @@
+@import "../sass-utils/_mixins";
+@import "../sass-utils/_variables";
+
+.main__map {
+  width: $map-section-width;
+  @include flexing(column);
+  font-family: $font-family;
+  margin: 0 auto;
+
+  #map {
+    height: 30vh;
+
+    @media (min-width: 700px) {
+      height: 70vh;
+    }
+  }
+
+  .text__boxes {
+    @media (min-width: 700px) {
+      @include flexing(row);
+      justify-content: space-between;
+      font-size: $secondary;
+      width: 80%;
+    }
+  }
+}
