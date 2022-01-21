@@ -1,11 +1,16 @@
 {
+<<<<<<< HEAD
   "name": "hackathon1",
+=======
+  "name": "generic-hipster-coffee",
+>>>>>>> 593bda1e42b423c2789a01a77ef1da488f39d885
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+<<<<<<< HEAD
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ricqvo/generic-hipster-coffee.git"
@@ -16,6 +21,10 @@
     "url": "https://github.com/ricqvo/generic-hipster-coffee/issues"
   },
   "homepage": "https://github.com/ricqvo/generic-hipster-coffee#readme",
+=======
+  "author": "",
+  "license": "ISC",
+>>>>>>> 593bda1e42b423c2789a01a77ef1da488f39d885
   "dependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^5.1.0",
